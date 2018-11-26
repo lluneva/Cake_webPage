@@ -1,0 +1,369 @@
+.right-column {
+    float: right;
+}
+
+/* Style the breadcrumb list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 12px;
+}
+
+/* Add a slash symbol (>) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 10px;
+    color: rgb(48, 5, 38);
+    content: ">\00a0";
+}
+
+.breadcrumb {
+    padding-left: 50px;
+}
+
+.media img,
+.carousel-item img {
+    border-radius: 10px;
+}
+
+#myImgBig {
+    border-radius: 10px;
+    width: 100%;
+}
+
+#myImg {
+    border-radius: 10px;
+    float: center;
+    width: 100%;
+
+}
+
+
+.regPagePic {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(61, 60, 60);
+}
+
+h5 , p {
+    color: rgb(61, 60, 60);
+}
+
+h5 +span {
+    font-size: 14px;
+    overflow: hidden;
+
+
+}
+
+li .media{
+    border: red 1px;
+    font-color: red;
+}
+
+h6+span  {
+    font-size: 14px;
+}
+
+
+
+.logo {
+    width: 20%;
+    position: relative;
+    float: left;
+    z-index: -1;
+
+}
+
+.navbar-nav {
+    display: inline;  
+    position: sticky;
+    top: 0;
+}
+
+ul .navbar-list{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+.nav-link:not(.tab) {
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(52, 52, 53);
+
+
+}
+
+/*tab navigācija*/
+.tab {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-color: darkgrey;
+
+}
+
+
+.nav-link :hover {
+    text-decoration: none;
+    color: rgb(52, 52, 53);
+
+}
+
+.readAll {
+    color: rgb(4, 85, 161);
+    font-size: 12px;
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    font-size: 12px;
+text-align: center;
+
+}
+
+
+
+.column img:hover {
+    opacity: 1;
+}
+
+.mr-3 {
+
+    height: 90px;
+    width: 90px;
+    padding: 5px;
+}
+
+
+.media-body :hover {
+    text-decoration: none;
+
+}
+
+a span {
+    text-align: left;
+}
+
+.forth {
+    text-align: right;
+}
+
+.padding-Left {
+    padding-left: 15px;
+}
+
+
+/* modal */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row>.column {
+    padding: 0 8px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: 90%;
+    overflow: auto;
+    background-color: black;
+
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: black;
+    padding: 0;
+    width: 70%;
+    max-width: 1200px;
+
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+   position: relative;
+   float: inside;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev-icon,
+.next-icon {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: 0;
+    color: white;
+
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-icon {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-icon:hover,
+.next-icon:hover {
+    background-color: rgba(94, 91, 91, 0.815);
+
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+img {
+    border-radius: 10px;
+
+}
+
+
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.chat-message {
+    border: solid gray 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.chat-message h6 em {
+    font-size: 10px;
+    color: gray;
+}
+
+.chat-message p {
+    font-size: 14px;
+    color: navy;
+}
+
+div .col-sm-8 {
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    float: left;
+    width: 100%;
+
+}
+
+.chat-message-form {
+    position: relative;
+    float: left;
+
+}
+
+.previous, .next {
+    list-style-type: none;
+    border: gray solid 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;    
+    
+}
+
+.pager {
+    padding-left: 0;
+}
+.previous {
+    float: left;
+    
+}
+
+.next {
+    float: right;
+}
+
+.previous a, .next a {
+    color: graytext;
+}

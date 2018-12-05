@@ -1,12 +1,12 @@
 
 
 <div class="row">
-    <div class="col-sm-12">
-        <h2>Reģistrējies</h2>
-        <br>
+    <div class="col-sm-12 heading-title">
+        <h2 >Reģistrējies</h2>
+
 
         <p> Lūdzu aizpildi formu, lai reģistrētos.</p>
-        <br>
+
     </div>
 </div>
 
@@ -50,7 +50,7 @@
         </form>
         <br>
         <br>
-        
+
 
     </div>
 

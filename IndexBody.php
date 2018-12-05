@@ -16,23 +16,23 @@
             <!-- The slideshow -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="cake_pictures\kuka13_widescreen.jpg"  
+                    <img src="cake_pictures\kuka13_widescreen.jpg"
                          alt="cake">
                 </div>
                 <div class="carousel-item ">
-                    <img src="cake_pictures\kuka11_widescreen.jpg" 
+                    <img src="cake_pictures\kuka11_widescreen.jpg"
                          alt="cake">
                 </div>
                 <div class="carousel-item">
-                    <img src="cake_pictures\wedding1_widescreen.jpg" 
+                    <img src="cake_pictures\wedding1_widescreen.jpg"
                          alt="cake">
                 </div>
                 <div class="carousel-item">
-                    <img src="cake_pictures\kids1_widescreen.jpg" 
+                    <img src="cake_pictures\kids1_widescreen.jpg"
                          alt="cake">
                 </div>
                 <div class="carousel-item">
-                    <img src="cake_pictures\latvian_widescreen.jpg" 
+                    <img src="cake_pictures\latvian_widescreen.jpg"
                          alt="cake">
                 </div>
 
@@ -53,10 +53,10 @@
 
     <!--  media -->
     <div class="row">
-        <div class="col-sm-12">
-            <br>
-            <h2>Jaunākie kūku stāsti <a class="readAll" href="?page=Showcase"> Lasīt visus</a></h2>
-            <br>
+        <div class="col-sm-12 heading-title">
+
+            <h2 >Jaunākie kūku stāsti <a class="readAll" href="?page=Showcase"> Lasīt visus</a></h2>
+
         </div>
     </div>
 
@@ -65,7 +65,7 @@
             <ul class="list-unstyled">
                 <a href="?page=Article1">  <li class="media">
                         <img class="mr-3" src="cake_pictures\kuka5.jpg" class="img-fluid"
-                             alt="">  
+                             alt="">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">Super garda kūka</h4>
                             <span> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
@@ -78,7 +78,7 @@
 
                 <a href="?page=Article1">  <li class="media">
                         <img class="mr-3" src="cake_pictures\kids7.jpg" class="img-fluid"
-                             alt="">  
+                             alt="">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">Unicorn kūka</h4>
                             <span> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
@@ -91,7 +91,7 @@
 
                 <a href="?page=Article1">  <li class="media">
                         <img class="mr-3" src="cake_pictures\kids2.jpg" class="img-fluid"
-                             alt="">  
+                             alt="">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">Dinozauru  kūka</h4>
                             <span> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
@@ -103,7 +103,7 @@
                 </a>
                 <a href="?page=Article1">  <li class="media">
                         <img class="mr-3" src="cake_pictures\festive1.jpg" class="img-fluid"
-                             alt="">  
+                             alt="">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">Ūsu  kūka</h4>
                             <span> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
@@ -122,7 +122,7 @@
             <ul class="list-unstyled">
                 <a href="?page=Article1">  <li class="media">
                         <img class="mr-3" src="cake_pictures\kuka5.jpg" class="img-fluid"
-                             alt="">  
+                             alt="">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">Super garda kūka</h4>
                             <span> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
@@ -133,9 +133,9 @@
                     </li>
                 </a>
 
-                <a href="?page=Article1">  <li class="media"> 
+                <a href="?page=Article1">  <li class="media">
                         <img class="mr-3" src="cake_pictures\kids7.jpg" class="img-fluid"
-                             alt="">  
+                             alt="">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">Unicorn kūka</h4>
                             <span> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
@@ -148,7 +148,7 @@
 
                 <a href="?page=Article1">  <li class="media">
                         <img class="mr-3" src="cake_pictures\kids2.jpg" class="img-fluid"
-                             alt="">  
+                             alt="">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">Dinozauru  kūka</h4>
                             <span> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
@@ -160,7 +160,7 @@
                 </a>
                 <a href="?page=Article1">  <li class="media">
                         <img class="mr-3" src="cake_pictures\festive1.jpg" class="img-fluid"
-                             alt="">  
+                             alt="">
                         <div class="media-body">
                             <h4 class="mt-0 mb-1">Ūsu  kūka</h4>
                             <span> Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
@@ -175,10 +175,3 @@
     </div>
     <br>
         <br>
-
-    
-
-
-
-
-

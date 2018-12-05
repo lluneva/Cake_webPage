@@ -44,6 +44,10 @@ ul.breadcrumb li+li:before {
 }
 
 
+.heading-title {
+    padding: auto 15px auto 15px
+}
+
 .regPagePic {
     width: 70%;
     height: auto;
@@ -56,23 +60,24 @@ ul.breadcrumb li+li:before {
     color: rgb(61, 60, 60);
 }
 
-h5 , p {
+h5,
+p {
     color: rgb(61, 60, 60);
 }
 
-h5 +span {
+h5+span {
     font-size: 14px;
     overflow: hidden;
 
 
 }
 
-li .media{
+li .media {
     border: red 1px;
     font-color: red;
 }
 
-h6+span  {
+h6+span {
     font-size: 14px;
 }
 
@@ -87,12 +92,12 @@ h6+span  {
 }
 
 .navbar-nav {
-    display: inline;  
+    display: inline;
     position: sticky;
     top: 0;
 }
 
-ul .navbar-list{
+ul .navbar-list {
     list-style-type: none;
     overflow: hidden;
 }
@@ -137,7 +142,7 @@ li {
     width: 100%;
     background-color: lightgrey;
     font-size: 12px;
-text-align: center;
+    text-align: center;
 
 }
 
@@ -240,8 +245,8 @@ body {
 }
 
 .mySlides {
-   position: relative;
-   float: inside;
+    position: relative;
+    float: inside;
 }
 
 .cursor {
@@ -343,27 +348,30 @@ div .col-sm-8 {
 
 }
 
-.previous, .next {
+.previous,
+.next {
     list-style-type: none;
     border: gray solid 1px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 30px;    
-    
+    border-radius: 30px;
+
 }
 
 .pager {
     padding-left: 0;
 }
+
 .previous {
     float: left;
-    
+
 }
 
 .next {
     float: right;
 }
 
-.previous a, .next a {
+.previous a,
+.next a {
     color: graytext;
 }

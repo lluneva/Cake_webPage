@@ -137,10 +137,8 @@ li {
 
 
 .footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: lightgrey;
     font-size: 12px;
     text-align: center;
 
@@ -246,7 +244,7 @@ body {
 
 .mySlides {
     position: relative;
-    float: inside;
+    float: right;
 }
 
 .cursor {
